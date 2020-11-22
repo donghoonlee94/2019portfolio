@@ -1,0 +1,785 @@
+﻿<!DOCTYPE HTML>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1600">	
+	<meta name="Generator" content="Notepad++"/>
+	<meta name="Author" content="이동훈"/>
+	<meta name="Keywords" content="이동훈, Lee dong hoon, 포트폴리오, Hoon's portfolio, 웹 퍼블리셔, 신입 퍼블리셔, publisher, web publisher" />
+	<meta name="Description" content="이동훈의 포트폴리오 페이지입니다. Welcome to Hoon's portfolio"/>	
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="이동훈의 포트폴리오 페이지">
+	<meta property="og:description" content=" 신입 웹 퍼블리셔 이동훈의 포트폴리오 페이지이며, PHP,JSP,J-query,HTML/CSS,JAVA-SCRIPT,less 등을 사용하였습니다.">
+	<meta property="og:url" content="http://snsd14.dothome.co.kr">	
+	<link rel="canonical" href="http://snsd14.dothome.co.kr/index.html">
+	<link rel="shortcut icon" href="images/dh.ico">
+	<title>Hoon's portfolio.</title>
+	
+	
+	<!-- less -->
+	<link rel="stylesheet" href="less/less.css" />
+	<!-- <link rel="stylesheet" href="less/less.less" /> -->
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/skitter.styles.css"/>	
+	
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+	
+	<!-- js -->
+	<script src="js/modernizr.custom.min.js"></script>			
+	<script src="js/mobile.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>		
+	<script src="js/jquery.easing.1.3.min.js"></script>	
+	<script src="js/scroll.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/DB_springMove_fn.js"></script>		
+	<script src="js/jQueryRotateCompressed.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<h1><span>이동훈의 포트폴리오/웹 퍼블리셔 포트폴리오/신입 웹 퍼블리셔 포트폴리오</span></h1>
+	<div id="wrap">
+		<div id="header">
+			<div id="menuWrap">
+				<ul id="menu" class="cf">
+					<li class="mLogo"><a href="#sec1"><img src="images/hoon.png" alt="logo"/></a></li>
+					<li><a href="#sec2">PROFILE</a></li>
+					<li><a href="#sec3">APP</a></li>
+					<li><a href="#sec4">PROJECT 1</a></li> <!-- css -->
+					<li><a href="#sec5">PROJECT 2</a></li> <!-- adaptive -->
+					<li><a href="#sec6">PROJECT 3</a></li> <!-- jquery -->
+					<li><a href="#sec7">EPILOGUE</a></li>
+				</ul>
+				<a href="#" onclick="window.open('project17.5/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=480,height=720,scrollbars=yes');return false" target="_blank" class="mobile-version textballoon" title="제 포트폴리오는 모바일 버전이 같이 구현 되어있어요!">
+					모바일버전으로 보기
+				</a>				
+				<a href="http://ehdgns8052.dothome.co.kr" class="fav textballoon" title="교육 과정을 담은 다이어리가 새창으로 열립니다 :)" target="_blank">
+					<img src="images/star.png" alt="favorite"/>
+				</a>
+			</div>
+		</div>
+		<div id="contents">
+			<div id="main" class="section">
+				<div class="pLogo"><img src="images/title.png" alt="이름 및 슬로건"/></div>
+				<div class="me"><img src="images/hoon2.png" alt="내 사진" class="MyPhoto"/></div>
+				<div class="cloud1"><img src="images/cloud1.png" alt="cloud"/></div>
+				<div class="cloud2"><img src="images/cloud2.png" alt="cloud"/></div>
+				<div class="cloud3"><img src="images/cloud3.png" alt="cloud"/></div>
+				<div class="cloud4"><img src="images/cloud4.png" alt="cloud"/></div>
+			</div>
+			<div id="profile" class="textballoon section" title="버튼을 클릭하시면 프로필 정보를 볼 수 있습니다 :)">
+				<div class="profile_img">
+					<img src="images/profile.png" alt="profile"/>
+				</div>
+				<div class="profile_category">
+					<ul>
+						<li><a href="#profile01" class="on">ABOUT</a></li>
+						<li><a href="#profile02">ADVANTAGE</a></li>
+						<li><a href="#profile03">SKILL</a></li>
+					</ul>
+				</div>
+				<div class="about_inner">
+					<div class="profile01 on" id="profile01">
+						<img src="images/hoon3.png" alt="Me"/>	
+						<p><em>"&nbsp;Who are you?&nbsp;"</em></p>
+						<ul class="first">
+							<li>이동훈 (Lee Dong Hoon)</li>
+							<li>010-5298-2401</li>
+							<li>1994년 08월 28일</li>
+							<li>ehdgns8052@naver.com</li>
+						</ul>
+						<ul class="last">
+							<li>한국아이티인재개발원</li>
+							<li>멀티디바이스 과정 960시간 수료</li>
+							<li>CS 경력 2년</li>
+							<li>서울시 금천구 거주</li>
+						</ul>						
+					</div><!-- profile01 -->
+					<div class="profile02" id="profile02">
+						<img src="images/hoon4.png" alt="hoon"/>
+						<p><em>"&nbsp;What is your advantage?&nbsp;"</em></p>
+						<hr/>
+						<ul class="first">
+							<li>나는 아직 부족하다, 끝없는 성장 욕구</li>
+							<li>시간 약속은 철저한 개근왕</li>
+							<li>둥글둥글한 성격으로 원만한 대인관계</li>
+							<li>포기할줄 모르는 끈기</li>
+							<li>맡은 일은 꼭 하는 성실함</li>
+						</ul>	
+						<ul class="last">
+							<li>상대방의 기준에서 생각하는 배려심</li>
+							<li>몰입감이 느껴지는 집중력</li>
+							<li>수동적 NO! 항상 능동적으로!</li>
+							<li>CS 경력으로 몸에 배인 친절함</li>
+							<li>쉽게 무너지지 않는 강한 정신력</li>
+						</ul>							
+					</div><!-- profile02 -->
+					<div class="profile03" id="profile03">
+						<p><em>"&nbsp;What is your level?&nbsp;"</em></p>
+						<hr/>
+						<div class="scene" id="scene-2">
+							<div class="scene-2-content">
+								<div class="charts clearfix">
+									<div class="chart" id="chart_css">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/css.png" alt="css" class="icon"/>
+											<p class="text">
+												<span class="percent-number">95</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->
+									<div class="chart" id="chart_js">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/js.png" alt="js" class="icon"/>
+											<p class="text">
+												<span class="percent-number">90</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->
+									<div class="chart" id="chart_java">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/java.png" alt="java" class="icon"/>
+											<p class="text">
+												<span class="percent-number">60</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->
+									<div class="chart" id="chart_jsp">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/jsp.png" alt="jsp" class="icon"/>
+											<p class="text">
+												<span class="percent-number">60</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->		
+									<div class="chart" id="chart_php">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/php.png" alt="php" class="icon"/>
+											<p class="text">
+												<span class="percent-number">80</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->	
+									<div class="chart" id="chart_db">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/db.png" alt="db" class="icon"/>
+											<p class="text">
+												<span class="percent-number">80</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->					
+									<div class="chart" id="chart_App">
+										<div class="circle-mask-outer left">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>
+										<div class="circle-mask-outer right">
+											<div class="circle-mask-inner">
+												<div class="circle-body"></div>
+											</div>
+										</div>	
+										<div class="chart-content">
+											<img src="images/HybridApp.png" alt="HybridApp" class="icon"/>
+											<p class="text">
+												<span class="percent-number">85</span>
+												<span class="percent-symbol">%</span>
+											</p>
+										</div>
+									</div> <!-- class="chart" -->			
+								</div>
+							</div>
+						</div><!--  scene -->
+					</div><!-- profile03 -->				
+				</div>
+			</div> <!-- id="profile" -->
+			<div id="mobile" class="section">
+				<h2>HYBRID APP</h2>
+				<div class="mobileMainImg">
+					<div class="mainImg">
+						<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="textballoon" title="하이브리드앱이 새창에서 열립니다 :)">
+							<img src="images/mobile2.png" alt="mobile"/>
+						</a>
+					</div>					
+				</div>
+				<div class="appImg">
+					<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="textballoon" title="하이브리드앱이 새창에서 열립니다 :)">
+						<span>
+							이랑 <br/>새창 열기
+						</span>
+						<img src="images/mobile_logo.png" alt="robot"/>
+					</a>
+				</div>
+				<div class="QRImg">
+					<a href="app/erang.apk" class="textballoon" title="하이브리드앱이 다운로드 됩니다 :)">
+						<span>
+							이랑 APK <br/> 
+							다운로드
+						</span>
+						<img src="images/QRcode.jpg" alt="robot"/>
+					</a>
+				</div>				
+				<div class="mobileTxt">
+					<h5>
+						잊을만 하면 찾아오는 기념일,
+						<span>내가 챙겨줄게!</span>
+					</h5>
+					<p>
+						다음 주 수요일 무슨 날인지 알지? 기대하고 있을게~ <br/> 
+					</p>
+<!-- 					<p class="sec">
+						헉..무슨 날이더라? 하루 하루가 너무 바빠 <br/>
+						기념일을 잊어버리고 말았다. 이대로라면 
+						나의 연애는 파국이다..
+					</p> -->
+					<p class="last">
+						100일? 1년? 생일! 기념일은 <br/> 연애의 필수 사항!  <br/>
+						이제는 <span class="point">'이랑'</span> 를 통해 <br/> <span class="point">기념일을 사수하세요!</span>
+					</p>					
+				</div>	
+					<div class="tabset">
+						<ul class="tabs">
+							<li><a href="#panel1" class="on first">Ⅰ</a></li>
+							<li><a href="#panel1" >Ⅱ</a></li>
+							<li><a href="#panel1" >Ⅲ</a></li>
+							<li><a href="#panel1" >Ⅳ</a></li>
+							<li><a href="#panel1" >Ⅴ</a></li>
+							<li><a href="#panel1" >Ⅵ</a></li>
+							<li><a href="#panel1" >Ⅶ</a></li>
+							<li><a href="#panel1" >Ⅸ</a></li>
+							<li><a href="#panel1" class="last" >Ⅹ</a></li>
+						</ul>
+						<div class="panel" style="display: block;">		
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app1 draggable"><img src="images/mobile_main.png" alt=""/></a>
+						</div>
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app2 draggable"><img src="images/mobile_sub1.png" alt=""/></a>
+						</div>			
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app3 draggable"><img src="images/mobile_sub2.png" alt=""/></a>
+						</div>			
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app4 draggable"><img src="images/mobile_sub3.png" alt=""/></a>
+						</div>	
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app5 draggable"><img src="images/mobile_sub4.png" alt=""/></a>
+						</div>
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app7 draggable"><img src="images/mobile_sub5.png" alt=""/></a>
+						</div>
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app6 draggable"><img src="images/mobile_sub6.png" alt=""/></a>
+						</div>						
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app8 draggable"><img src="images/mobile_sub7.png" alt=""/></a>
+						</div>
+						<div class="panel">
+							<a href="#" onclick="window.open('app/index.html','new','resizable=no, toolbar=no,location=no,status=no,top=80,left=200,width=460,height=720,scrollbars=yes');return false" target="_blank" class="app9 draggable"><img src="images/mobile_sub8.png" alt=""/></a>
+						</div>			
+					</div>				
+				<div class="proposal">
+					<a href="hybridapp.pdf" class="textballoon" title="커플플래너 기획안이 새창에서 열립니다 :)" target="_blank">
+						<img src="images/proposal.png" alt="proposal"/>
+						<p><span class="point">'이랑'</span> <br/>앱 개발 기획서</p> 
+					</a>
+				</div>
+				<div class="line1"></div>
+			</div> <!-- id="mobile" -->
+			<div id="css" class="section">
+				<div class="slide" id="slide1">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">7.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>
+					<div class="cssMainImg">
+						<div class="comInner">
+							<a href="project01/index.html">
+								<img src="images/macbook.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="project01/index.html" class="textballoon" title="CSS 대검찰청 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/cssmain.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>
+					<div class="cssSubImg">
+						<a href="project01/sub2/sub2.html" target="_blank"><img src="images/csssub1_hover.png" onmouseover="this.src='images/csssub1.png'" onmouseout="this.src='images/csssub1_hover.png'" alt="css 서브 이미지"/></a>
+						<a href="project01/sub5/sub5.html" target="_blank"><img src="images/csssub2_hover.png" onmouseover="this.src='images/csssub2.png'" onmouseout="this.src='images/csssub2_hover.png'" alt="css 서브 이미지"/></a>
+						<a href="project01/sub6/sub6.html" target="_blank"><img src="images/csssub3_hover.png" onmouseover="this.src='images/csssub3.png'" onmouseout="this.src='images/csssub3_hover.png'" alt="css 서브 이미지"/></a>
+						<a href="project01/sub1/sub1.html" target="_blank"><img src="images/csssub4_hover.png" onmouseover="this.src='images/csssub4.png'" onmouseout="this.src='images/csssub4_hover.png'" alt="css 서브 이미지"/></a>
+						<a href="project01/sub3/sub3.html" target="_blank"><img src="images/csssub5_hover.png" onmouseover="this.src='images/csssub5.png'" onmouseout="this.src='images/csssub5_hover.png'" alt="css 서브 이미지"/></a>
+						<a href="project01/sub4/sub4.html" target="_blank"><img src="images/csssub6_hover.png" onmouseover="this.src='images/csssub6.png'" onmouseout="this.src='images/csssub6_hover.png'" alt="css 서브 이미지"/></a>
+					</div>				
+					<div class="css01">
+						<strong>Concept</strong>
+						<p>
+							이 작품은 내가 관심 있었던 대검찰청 사이트를 리뉴얼한 것이다. 법에 관련된 관공서인 만큼 각 콘텐츠들이 지저분하지 않고 깔끔하게 보이도록 하였으며 적절한 위치에 배치하여 콘텐츠에 대한 이해도를 보여주는 것에 중점을 두었다. <span class="point">더불어 웹 표준을 준수하여 모든 브라우저 및 익스플로러 낮은 버전인 7버전까지 이용할 수 있게 하였다.</span>
+						</p>
+					</div>
+					<div class="css02">
+						<strong>UX & UI</strong>
+						<p>
+							코딩을 하면서 가장 신경 쓰였던 부분은 코딩이 <span class="point">조금만 잘못 되도 각기 다른 브라우저마다 다르게</span> 보인다는 것이었다. 각 브라우져마다 특색이 다르고 민감한 부분이 다른 것을 고려하여 레이아웃이 적절하게 배치되도록 코딩하려 하였고, <span class="point">clearfix를 활용하여 그 부분에 민감한 브라우져에서 레이아웃이 무너지는 현상이 없도록 하였다.</span> 또 웹표준에 준수할 수 있도록 W3C에서 유효성검사를 통과하였다.
+						</p>
+					</div>
+					<div class="css03">
+						<strong>Epilogue</strong>
+						<p>
+							간단한 예제로만 배우던 코딩을 내 손으로 하나하나, 차근차근 코딩해가며 만들어간 작품이다. 처음 HTML을 접했을 때는, 과연 내가 고른 페이지를 완성할 수 있을지 걱정했지만, 코딩하면 할수록 실력이 향상되는 것을 느꼈다. 마지막으로 익스플로러 7에서 테스트 하였을 때 부분적으로 레이아웃이 무너진 것을 보고 수정하면서 <span class="point">사소해 보이는 하나까지도 염두에 두고 코딩해야 한다는 것을 깨닫게 된 첫 작품이다.</span>
+						</p>
+					</div>
+				</div> <!-- slide1 -->		
+				<div class="slide" id="slide2">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">7.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>
+					<div class="jQueryIphone">
+						<div class="iphoneInner">
+							<a href="project02/index.html">
+								<img src="images/jquery_popup1.png" alt="iphone"/>
+							</a>
+						</div>					
+					</div>						
+					<div class="jQuery01MainImg">
+						<div class="comInner">
+							<a href="project02/index.html">
+								<img src="images/macbook2.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="project02/index.html" class="textballoon" title="J-Query 대검찰청 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/jquerymain.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>			
+					<div class="jQuery01_01">
+						<strong>Concept</strong>
+						<p>
+							CSS 작품이 평범한 나무라면, <span class="point">이 작품은 jQuery를 통하여 열매를 달아 생명감을 불어넣었다.</span> 커뮤니티 사이트의 성격을 고려하여 각 콘텐츠들에 알맞게 jQuery 기술을 적용하려고 노력하였고 특히 메인페이지는 몇 부분의 영역을 빼고는 jQuery를 적용하여 움직임의 즐거움을 주려고 노력하였다.
+						</p>
+					</div>
+					<div class="jQuery01_02">
+						<strong>UX & UI</strong>
+						<p>
+							입력하는 부분에는 가이드텍스트를 적용하였고, 부분 부분 툴팁을 적용하여 마우스를 올릴 때 말풍선 형식의 도움말이 뜰 수 있게 하였다. 검색버튼을 누를 시 검색바가 바로 나와 검색하기 편하게 하였고, 배너부분은 이미지가 자동으로 바뀌어 보이게 하였다. 메인 슬라이드에는 자주 찾는 메뉴를 두었고, 좌,우측 화살표로 추가 메뉴가 있는 것을 알렸다.
+						</p>
+					</div>
+					<div class="jQuery01_03">
+						<strong>Epilogue</strong>
+						<p>
+							J-Query는 마법 같아서 사람을 욕심나게 한다. CSS코딩으로 구현할 수 없는 것들, 낮은 브라우저에서 실행이 되는 장점, <span class="point">자칫 간단해보여서 한걸음 다가가면, 입이 떡 벌어지는 소스로 두걸음 물러나게 하는 흑마법 같은 존재다.</span> 그래서 더더욱 잘하고  싶고, 내 마음대로 다루고 내 생각이 그대로 소스로 나오게끔 능력을 키우고 싶다는 생각이 든다.
+						</p>
+					</div>
+				</div> <!-- slide2 -->		
+				<div class="slide" id="slide3">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">7.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>
+<!-- 					<div class="jspIphone">
+						<div class="iphoneInner">
+							<a href="http://snsd14.cafe24.com/">
+								<img src="images/Apple-iPhone-Gold.png" alt="iphone"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="http://snsd14.cafe24.com/" class="textballoon" title="JSP 대검찰청 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/jsp02.png" alt="macbook"/>
+							</a>
+						</div>						
+					</div>	 -->					
+					<div class="jspMainImg">
+						<div class="comInner">
+							<a href="http://snsd14.cafe24.com/">
+								<img src="images/macbook2.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="http://snsd14.cafe24.com/" class="textballoon" title="JSP 대검찰청 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/jsp01.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>		
+<!-- 					<div class="jspIpad">
+						<div class="ipadInner">
+							<a href="http://snsd14.cafe24.com/">
+								<img src="images/Apple-iPad-Gold.png" alt="iphone"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="http://snsd14.cafe24.com/" class="textballoon" title="JSP 대검찰청 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/jsp03.png" alt="macbook"/>
+							</a>
+						</div>						
+					</div>	 -->					
+					<div class="jsp01">
+						<strong>Concept</strong>
+						<p>
+							<span class="point">관공서인 만큼, 최대한 깔끔하게 디자인을 하였다.</span> 번호, 제목, 이름 등의 가독성을 좋게 하기 위해 여백을 넉넉히 두었으며, 상단에 검색바를 두어 원하는 자료를 검색하기 쉽게 만들어 두었다. 글쓰기 버튼은 좌측 하단에 두어 접근하기 쉽게하였다.
+						</p>
+					</div>
+					<div class="jsp02">
+						<strong>Epilogue1</strong>
+						<p>
+							JAVA를 배울 때, 외계어를 하는 것 같은 느낌이 들었다. 생소한 단어들이 너무 많았고, 계산하는 게 쉽지는 않았다. JSP도 JAVA와 비슷하게 느껴졌는데, <span class="point">아직 JSP를 다루기에는 많이 부족하다 생각이 들어 더 가까워지기 위해서는 많은 노력이 필요하겠구나 생각이 든 작품이다.</span>
+						</p>
+					</div>
+					<div class="jsp03">
+						<strong>Epilogue2</strong>
+						<p>
+							처음엔 JSP가 어떤건지, PHP가 어떤건지 그 뜻도 알지 못했었다. <span class="point">조금씩 배워가며 JSP가 어떤 역할을 하는지 깨닫게 되었다.</span> 서버 관련 쿠키나, 세션, 데이터베이스 등 사용하는 게 엄청 많게 느껴졌다. 조금씩 친해지며 Exception 예외처리에 내 사진도 넣으며 JSP 작품이 어느정도 완성되었지만, 아직 JSP와 내 사이에는 큰 벽이 있는 것 같다.
+						</p>
+					</div>
+				</div> <!-- slide3 -->						
+			</div> <!-- id="css" -->				
+			<div id="adaptive01" class="section">
+				<div class="slide" id="slide4">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">8.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>			
+					<div class="jquery02MainImg">
+						<div class="comInner">
+							<a href="project09/index.html">
+								<img src="images/macbook2.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="project09/index.html" class="textballoon" title="J-Query 튜터링 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/adaptivemain.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>						
+					<div class="jQuery02_01">
+						<strong>Concept</strong>
+						<p>
+							평소에 영어에 관심이 있어 튜터링이란 어플을 이용해볼까 했던적이 있어 두번째 J-Query 페이지로 고르게 되었다. 기존 페이지와 달리 메인 페이지에 수강권에 대한 내용, 수강생들의 생생한 리얼 후기, 미리 체험하기 등 컨텐츠 배치하여 <span class="point">튜터링을 이용하면 당신도 영어를 잘할 수 있다! 라는 느낌을 심어주었다.</span> 더불어 구매 시 혜택 등을 나타내어 구매 욕구를 불러오도록 하였다.
+						</p>
+					</div>
+					<div class="jQuery02_02">
+						<strong>UX & UI</strong>
+						<p>
+							기존 튜터링 페이지 같은 경우 페이지가 길어 스크롤을 많이 내리면 다시 올라오기 힘들었다. 메뉴 좌측에 즐겨찾기 메뉴를 만들어 페이지 어디에서도 이동할 수 있게 만들었다. <span class="point">구매하기 전, 영어 컨텐츠를 조금 체험할 수 있도록 클릭 시 이벤트를 설정해두었고,</span> 주된 목적이 수강 등록인만큼, 수강생들의 후기나 판매 상품, 구매 혜택 등을 <span class="point">다양한 모습들로 디자인하여 배치하였다.</span>
+						</p>
+					</div>
+					<div class="jQuery02_03">
+						<strong>Epilogue</strong>
+						<p>
+							콘텐츠 디자인에 대한 개념이 잡혀가면서 <span class="point">'과연 이 J-Query 효과가 이 콘텐츠에 맞는 효과일까?'</span> 라는 고민을 우선 적으로 하게 되었다. 각 콘텐츠와 잘 어우러지는 J-Query 효과를 주기 위해 많은 고민과 연구를 하며 제작한 홈페이지이다. 두번째 제이쿼리 작품이기에 처음보다는 <span class="point">J-Query에 대한 이해도가 높아졌고 많은 공부를 할 수 있었다.</span>
+						</p>
+					</div>		
+				</div> 	<!-- slide4 -->		
+				<div class="slide" id="slide5">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">8.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>
+					<div class="adaptiveIpad">
+						<div class="ipadInner">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false" >
+								<img src="images/Apple-iPad-Gold.png" alt="iphone"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false"  class="textballoon" title="반응형 튜터링 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/adaptivemain.png" alt="macbook"/>
+							</a>
+						</div>						
+					</div>				
+					<div class="adaptiveMainImg">
+						<div class="comInner">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false" >
+								<img src="images/macbook2.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false"  class="textballoon" title="반응형 튜터링 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/adaptive1.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>	
+					<div class="adaptiveIphone">
+						<div class="iphoneInner">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false" >
+								<img src="images/Apple-iPhone-Gold.png" alt="iphone"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="#" onclick="window.open('project04/index.html','new','resizable=yes,toolbar=no,menubar=no,location=no,directories=no,status=no, top=80,left=200,width=600,height=800,scrollbars=yes'); return false" class="textballoon" title="반응형 튜터링 페이지가 새창에서 열립니다 :)" target="_blank">
+								<img src="images/adaptive2.png" alt="macbook"/>
+							</a>
+						</div>						
+					</div>					
+					<div class="adaptive01">
+						<strong>Concept</strong>
+						<p>
+							화면이 작은 상태에서는 수강권이나 수강 후기, 교육 컨텐츠 등을 최대한 볼 수 있도록 배치하였다. 큰 화면에서의 메뉴는 작은 화면에서 보기 어렵기에 <span class="point">햄버거 메뉴를 만들어 보기 쉽게 하여 사용자를 배려하였다.</span> 작은 화면에서 보기 어려운 컨텐츠들은 작은 화면에 맞는 이미지&컨텐츠로 대체하여 볼 수 있도록 설정하여 <span class="point">크기가 작아져도 최대한 많은 컨텐츠를 볼 수 있게 배치하였다.</span>
+						</p>
+					</div>
+					<div class="adaptive02">
+						<strong>UX & UI</strong>
+						<p>
+							반응형 웹에서 가장 중요한 <span class="point">X-scroll</span>이 생기지 않게 하기 위해 많은 시간을 투자하였다. 단계 단계 Mediaquery를 사용하여 해상도(1280px이상)부터 해상도(480px)까지 꼼꼼히 설계, 디자인하여 <span class="point">어떤 크기의 화면에서도 레이아웃이 무너지지 않는 견고한 반응형 웹</span> 홈페이지를 제작하였다.
+						</p>
+					</div>
+					<div class="adaptive03">
+						<strong>Epilogue</strong>
+						<p>
+							<span class="point">조금의 오차만 생겨도 레이아웃이 쉽게 무너져버리고 마는 반응형 웹의 특성으로 인해 사이트를 제작하면서 많은 시행착오를 겪었다.</span> 하지만 그 과정들을 겪고 나니 반응형 웹에 대한 이해도가 훨씬 높아졌고 기획하였던대로 레이아웃을 잡고 컨텐츠를 포함해가면서 <span class="point">점차 내가 원했던 홈페이지의 모습을 갖추어가는 모습을 보았을 때 큰 흥미로움을 느꼈다.</span> 컨셉이 뚜렷한 만큼 튜터링이란 색을 나타내는데 집중하였다.
+						</p>
+					</div>		
+				</div> 	<!-- slide5 -->		
+				<div class="slide" id="slide6">
+					<div class="browser">
+						<ul>
+							<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">8.0+</span></li>
+							<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+							<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+							<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+							<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+						</ul>
+					</div>
+					<div class="phpIpad">
+						<div class="ipadInner">
+							<a href="http://snsd14.dothome.co.kr/project15.5/index.php" target="_blank">
+								<img src="images/Apple-iPad-Gold.png" alt="iphone"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="http://snsd14.dothome.co.kr/project15.5/index.php" title="PHP 튜터링 페이지가 새창에서 열립니다 :)" class="textballoon" target="_blank">
+								<img src="images/adaptivemain.png" alt="macbook"/>
+							</a>
+						</div>						
+					</div>				
+					<div class="phpMainImg">
+						<div class="comInner">
+							<a href="http://snsd14.dothome.co.kr/project15.5/index.php" target="_blank">
+								<img src="images/macbook2.png" alt="macbook"/>
+							</a>
+						</div>
+						<div class="mainImg">
+							<a href="http://snsd14.dothome.co.kr/project15.5/index.php" title="PHP 튜터링 페이지가 새창에서 열립니다 :)" class="textballoon" target="_blank">
+								<img src="images/php01.png" alt="macbook"/>
+							</a>
+						</div>					
+					</div>				
+					<div class="php01">
+						<strong>Concept</strong>
+						<p>
+						  로그인, 회원가입, 게시판 등 서브 페이지는 메인 페이지와 비슷한 색을 사용하여 위화감을 갖지 않게 하였다. 중요 컨텐츠만 있도록 깔끔하게 디자인하였고, <span class="point">버튼색은 튜터링의 메인색인 연보라를 사용하여 색감을 맞추었다.</span>
+						</p>
+					</div>
+					<div class="php02">
+						<strong>Epilogue</strong>
+						<p>
+							JSP를 마무리하고 PHP를 시작하니, 훨씬 쉽게 느껴졌다. 그렇다고 PHP가 어렵지 않은 것은 아니었다. <span class="point">데이터베이스를 연결하여 사용하는 부분이 많이 어려웠지만, 어려울수록 알아가는 재미가 분명 있었다.</span> 데이터베이스를 연결하는 부분이나, <span class="point">글을 실시간으로 작성, 수정할 수 있게 소스를 보고 수정하면서 많은 재미를 느끼게 된 언어였다.</span> PHP는 무언가 더 공부해서 잘 다루고 싶게 하는 욕심을 부른다.
+						</p>
+					</div>	
+				</div> 	<!-- slide6 -->						
+			</div> <!-- id="adaptive" -->						
+			<div id="jQuery" class="section">
+				<h2>J-QUERY3</h2>
+				<div class="browser">
+					<ul>
+						<li class="browser01 on"><img src="images/explorer.png" alt="explorer"/><span class="on">9.0+</span></li>
+						<li class="browser02"><img src="images/chrome.png" alt="chrome"/><span>2.1+</span></li>
+						<li class="browser03"><img src="images/mozilla.png" alt="mozilla"/><span>3.5+</span></li>
+						<li class="browser04"><img src="images/safari.png" alt="safari"/><span>3.1+</span></li>
+						<li class="browser05"><img src="images/opera.png" alt="opera"/><span>9.0+</span></li>
+					</ul>
+				</div>
+				<div class="jQueryMainImg">
+					<div class="comInner">
+						<a href="project05/index.html">
+							<img src="images/macbook2.png" alt="macbook"/>
+						</a>
+					</div>
+					<div class="mainImg">
+						<a href="project05/index.html" class="textballoon" title="본죽 페이지가 새창에서 열립니다 :)" target="_blank">
+							<img src="images/jquery03.png" alt="macbook"/>
+						</a>
+					</div>					
+				</div>			
+				<div class="jQuery01">
+					<strong>Concept</strong>
+					<p>
+						강한 인상을 남기는 본죽 계열의 색상 와인 컬러를 사용하였다. 신 메뉴, 대표 메뉴 등을 스크롤을 내릴 때 슬라이드 형식으로 나오게하여 관심을 갖게 하였다. <span class="point">Swipe 플러그인을 사용하여 이미지를 드래그로 넘길 수 있게 하여 사용자에게 편리함을 주었다.</span> 자주 찾는 메뉴는 퀵바로 두고 계속 따라다녀 언제든 페이지를 이동할 수 있게 하였다.
+					</p>
+				</div>
+				<div class="jQuery02">
+					<strong>UX & UI</strong>
+					<p>
+						자주 찾는 메뉴는 퀵바로 두어 편리함을 주었고, 새로 출시된 메뉴에 <span class="point">관심갖게 하기 위해 스크롤을 내릴 때 새로운 메뉴와 대표 메뉴가 애니메이션 되게끔 배치하였다.</span> 이미지 슬라이드로 인기있는 매장을 배치하여 사용자가 보기 편하게 하였다.
+					</p>
+				</div>
+				<div class="jQuery03">
+					<strong>Epilogue</strong>
+					<p>
+						이 작품을 할 때 처음으로 스크롤 이벤트를 사용하였다. 페이지에 나오지 않았다가, 스크롤이 특정 값이 되었을 때 애니메이션이 되게 하는 게 굉장히 새로웠다. <span class="point">스크롤 이벤트는 자주 만나는 친구가 될 것 같다.</span> 더불어 Swipe라는 플러그인도 처음 사용하였다. <span class="point">아쉽게도 익스플로러 9버전 이하에서는 동작되지 않지만,</span> 드래그하여 움직일 수 있는 점이 꽤나 마음에 들었다.
+					</p>
+				</div>		
+			</div> <!-- id="jQuery" -->					
+			<div id="epilogue" class="section">
+				<h2>#EPILOGUE</h2>
+				<div class="box_skitter box_skitter_large">
+					<ul>
+						<li>
+							<a href="#"><img src="images/epilogue_img1.jpg" alt="random" class="blind"/></a>
+							<div class="label_text">
+								<p>뭔가 위치가 안 맞는 우리 ㅋㅋ</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><img src="images/epilogue_img2.jpg" alt="random" class="horizontal"/></a>
+							<div class="label_text">
+								<p>뭔가 아련.......</p>
+							</div>
+						</li>	
+						<li>
+							<a href="#"><img src="images/epilogue_img3.jpg" alt="random" class="block"/></a>
+							<div class="label_text">
+								<p>스파이더맨? 대체 어디가?!ㅋㅋㅋ</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><img src="images/epilogue_img4.jpg" alt="random" class="directionRight"/></a>
+							<div class="label_text">
+								<p>패션왕 자세..를! 가장한 셀프 멱살ㅋㅋ</p>
+							</div>
+						</li>	
+						<li>
+							<a href="#"><img src="images/epilogue_img5.jpg" alt="random" class="blind"/></a>
+							<div class="label_text">
+								<p>5를 사랑하는 오쌤을 위해서....</p>
+							</div>
+						</li>	
+						<li>
+							<a href="#"><img src="images/epilogue_img6.jpg" alt="random" class="paralell"/></a>
+							<div class="label_text">
+								<p>5개월동안 모두 고생 많았어요!</p>
+							</div>
+						</li>						
+					</ul>
+				</div>
+				<div class="epilogue">
+					<h2>Thanks for..</h2>
+					<ul>
+						<li>언제나 리더처럼 이끌어주고, 다 함께 으쌰으쌰 할 수 있게 항상 분위기를 이끌어주고 콩 한쪽도 절대 혼자 먹지 않고 다 같이 나눠 챙겨주는 정말 고마운<span class="point">경아</span>누나, 항상 고마워요 ㅋㅋ 항상 평석이 형과 같이 다니는 ㅋㅋㅋ 단짝 커플(?)이자 츤츤한 키다리 <span class="point">연표</span>, 항상 너무 꼼꼼하고 뭐가 됐든 열심히 집중해서 하는 모습을 내 앞자리에서 보여줘서 나에게까지 열정이 미치게 하는 푸릇푸릇한 머리의 소유자 <span class="point">채은</span>, 교육 첫 날, 옆자리에 있어서 내가 모르는 걸 많이 물어봤는데, 귀찮은 내색 하나도 없이 친절하게 이해될 때까지 알려주는 우리반 1등 스마트 <span class="point">성수</span>, 고생했따 ㅋㅋㅋ 언제나 밝은 모습과 쉬는 시간 짜라빠빠를 틀어주는 <span class="point">다선</span>누나, 대머리 PPT 쩔었어요...꼭 개발해줘요 머머리 탈출법! ㅋㅋ 교육 초반부터 스파르타식 이왕 도전하는 거 제일 어려운 거 도전하겠다! <span class="point">범식</span>형, 그 도전 정신 본 받고 싶습니다. ㅋㅋ 디자인 1도 모르는 나에게 디자인 스킬 전수시켜주고, 웃음이 많은 짝꿍<span class="point">지은</span>이, 너의 웃음 소리가 머리에서 울린다..ㅋㅋ 다른 짝꿍 <span class="point">자현</span>이! 중독성있는 자현체, 제가요...? 휴먼 자현체~ ㅋㅋ날씨 엄청 더울 때 나는 선풍기가 없었고 너는 선풍기가 있었지...자현 선풍기야 고마워! ㅋㅋ 다음은 우리의 조장 <span class="point">구슬동자 평석</span>형! 항상 위트 넘치고 유머러스하고 옆에 있으면 사운드가 아주 꽉꽉 차는 게 형이 없으면 허전할 정도야. 교육 첫 날 짝꿍에서 교육이 끝난 지금까지 같은 조인 코딩 메이트, 항상 고맙소~ 심각한 동안 <span class="point">초희 </span> 누나, 평석이형이랑 나이가 같다고 했을 때 난 제 귀를 의심했어요...불로초를 먹은 것 같은 동안 외모! 저도 동안 비법 알려주세요..ㅎㅎㅎ....반의 또 다른 분위기 메이커 <span class="point">태효</span>, 태희와 태효를 넘나드는 너, 너랑 같이 있을 때는 항상 웃음이 가득하다ㅋㅋ 석기시대 휴대폰 쓴다고 한 거 마음에 담아두지 말고!ㅎㅎㅎ 항상 열심히 하시는 <span class="point">상아</span>누나, 초희누나 못지않게 동안이셔서 놀랬어요. ㅋㅋ 2조는 다 동안인가봐...태효 뺴...ㄱ...ㅋㅋㅋ자바의 신 <span class="point">수빈</span>, 1을 알려주면 10을 가지고 오는 스마트한, 빠른 이해력과 습득력 훔치고 싶어~ ㅋㅋ 마지막으로 5의 왕국의 <span class="point">오윤석</span> 교수님, 처음에 교육 들을 때 혹시나 혼자만 이해하지 못 하는 부분이 생겨 수업 진도를 못 따라가면 어쩌나 고민을 많이 했는데, 그 고민을 바로 사라지게 해주셨어요. 모르는 게 있으면 학생 한명 한명 모두가 이해할 때까지 여러차례 설명해주시고, 작품 하나하나 꼼꼼하게 컨펌해주시고 가르쳐주신 덕분에 div도 모르던 제가 이렇게 포트폴리오까지 완성할 수 있게 되었네요. 정말 진심으로 감사합니다! 꼭 성공할게요!! 180일 과정동안 다들 너무 감사했습니다!</li>
+					</ul>
+				</div>
+			</div> <!-- id="epilogue" -->			
+			<div id="footer" class="section">
+				<div class="footer">
+					<p class="bye">Thank You for Visiting <br/>	</p>
+					<p class="name"><img src="images/hoon5.png" alt="name"/></p>
+					<p class="fp_num"><span>LEE DONG HOON</span> <br/> 010 - 5298 - 2401</p>
+					<p class="copy">Copyright© Hoon's Portfolio 2019. All rights reserved. <img src="images/vcss-blue.gif" alt="rightcss"/></p>
+				</div>
+			</div> <!-- id="epilogue" -->				
+		</div> <!-- id="contents" -->
+	</div> <!-- wrap end -->
+	
+	
+</body>
+</html>
+
+
+
+
